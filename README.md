@@ -34,3 +34,4 @@ riccati_study(sol)
 | `riccati_transform()` | Passer à une équation linéaire d'ordre 2 |
 | `riccati_study()` | Étudier une solution (monotonie, explosion, équilibres) |
 | `riccati_equilibria()` | Points d'équilibre et stabilité |
+# RiccatiSolver
