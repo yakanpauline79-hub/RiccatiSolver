@@ -35,3 +35,4 @@ riccati_study(sol)
 | `riccati_study()` | Étudier une solution (monotonie, explosion, équilibres) |
 | `riccati_equilibria()` | Points d'équilibre et stabilité |
 # RiccatiSolver
+# RiccatiSolver
