@@ -1,0 +1,21 @@
+Package: RiccatiSolver
+Type: Package
+Title: Resolution et Analyse des Equations Differentielles de Riccati
+Version: 0.1.0
+Authors@R: person("Pauline", "Moubitang", email = "yakanpauline79@gmail.com", role = c("aut", "cre"))
+Description: Outils pour definir, resoudre numeriquement, representer,
+    comparer et analyser les equations de Riccati y' = a(x) y^2 + b(x) y + c(x),
+    y compris la transformation en equation lineaire du second ordre.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    deSolve,
+    ggplot2 (>= 3.4.0)
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+Config/roxygen2/version: 8.1.1
